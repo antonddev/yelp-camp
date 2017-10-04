@@ -4,7 +4,8 @@
   "description": "Yelp Camp Version 1",
   "main": "app.js",
   "scripts": {
-    "test": "Brandon Harris"
+    "test": "Brandon Harris",
+    "start": "node app.js"
   },
   "author": "Brandon Harris",
   "license": "ISC",
