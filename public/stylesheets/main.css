@@ -19,8 +19,18 @@
 }
 
 
-@media only screen and (max-width: 999px) { /* rules that only apply for canvases narrower than 1000px */}
+.createeditContainer {
+    width: 40%;
+    min-width: 300px;
+    margin: 25px auto;
+}
 
-@media only screen and (device-width: 768px) and (orientation: landscape) { /* rules for iPad in landscape orientation */}
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { /* iPhone, Android rules here */}
+.logregContainer {
+    width: 30%;
+    min-width: 300px;
+    margin: 25px auto;
+}
+
+
+
