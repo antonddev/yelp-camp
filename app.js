@@ -13,14 +13,14 @@ methodOverride = require("method-override"),
 
 
 
-
 // requring routes
 var commentRoutes = require("./routes/comments"),
  campgroundRoutes = require("./routes/campgrounds"),
       indexRoutes = require("./routes/index");
 
-    
-mongoose.connect(process.env.DATABASEURL, {useMongoClient: true});
+
+var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v13"    
+mongoose.connect(url, {useMongoClient: true});
 // mongoose.connect("mongodb://apple:apple123@ds161584.mlab.com:61584/yelp_camp", {useMongoClient: true});
 // in console: export DATABASEURL=mongodb://localhost/yelp_camp_v13
 
